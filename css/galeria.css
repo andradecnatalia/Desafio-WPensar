@@ -1,0 +1,231 @@
+body
+{
+	background:none;
+	text-align:center;
+	margin:0;
+	color:#b2879a;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+/* --------------------------------------------------------------------*/
+div.conteudo
+{
+	width:100%;
+	height:auto;
+	background:none;
+	position:absolute;
+	
+	
+}
+
+div.foot
+{
+	width:100%;
+	height:54px;
+	padding:32px 0;
+	margin:22px 0 0;
+	background:#b2879a;
+	color:#FFF;
+	position:absolute;
+	display:block;
+	top:6450px;
+}
+
+div.foot p
+{
+	margin:4px 0;
+}
+
+div.foot a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+div.foot a:hover
+{
+	color:#D7BA81;
+	text-decoration:none;
+}
+
+img
+{
+	border:0;
+}
+
+div.header
+{
+	width:100%;
+	height:150px;
+	background:url('header.jpg') center bottom repeat-x;
+	position:absolute;
+	z-index:1001;
+}
+
+div.header img.logo
+{
+	margin:18px 0 0;
+}
+
+div.dropdown-right
+{
+	position: relative;
+	display: inline-block;
+	float: right;	
+	top:-113.1px;
+	margin-right:20px;
+}
+
+div.dropdown-left
+{
+	position: relative;
+	display: inline-block;
+	float: left;	
+	top:-113.1px;
+	margin-left:20px;
+
+}
+
+.dropbtn 
+{	
+	background-color: #f6c7be;
+	color: #b2879a;
+	padding: 0px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:900;
+	height:40px;
+	margin-top:5.5px;
+	min-width: 189px;
+	position: center bottom;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+	color: #f6c7be;;
+	float: left;	
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-right:hover .dropbtn 
+{
+	background-color: #f6c7be;
+	border-bottom: 10px solid #b2879a;
+	color: #b2879a;
+	font-weight:900;
+	font-size:15px;
+}
+.dropdown-left:hover .dropbtn 
+{
+	background-color: #f6c7be;
+	border-bottom: 10px solid #b2879a;
+	color: #b2879a;
+	font-weight:900;
+	font-size:15px;
+}
+
+/* --------------------GALERIA DE IMAGENS------------------------*/
+
+div.galeria
+{
+	top:222px;
+	width:960px;
+	height:auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color:#b2879a;
+	position:relative;
+	z-index:2000;
+	
+}
+
+div.galeriafestas
+{
+	top:222px;
+	width:1000px;
+	height:auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color:#b2879a;
+	position:relative;
+	z-index:2000;
+	
+}
+
+div.gif
+{
+	position:relative;
+	float:center;
+}
+
+div.festas {
+    margin: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+	
+	
+}
+
+div.festas img {
+    width: 100%;
+    height: auto;
+}
+
+div.img {
+    margin: 5px;
+    border: none;
+	border-radius: 10px;
+    float: left;
+    width: 180px;
+	height:250px;
+	
+}
+
+div.img:hover {
+    border: none;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+	border-radius: 10px;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+	font-size:12px;
+	font-weight:900;
+}
+
+/* --------------------INDEX------------------------*/
+
+div.festasgif
+{
+	top:222px;
+	position:relative;
+}
+
+div.servicos
+{
+	top:222px;
+	position:relative;
+	
+}
+
+div.servicostexto
+{
+	text-align:left;
+	margin: 0 40px 40px;
+}
+
+div.servicostexto p
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
